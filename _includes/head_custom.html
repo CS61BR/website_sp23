@@ -1,0 +1,30 @@
+<script>
+    /* dark mode toggle, stolen from cs161 website */
+    let toggleDark = () => {
+        let setDark = jtd.getTheme() !== 'dark';
+        jtd.setTheme(setDark ? 'dark' : 'default');
+        localStorage.setItem('darkMode', String(setDark));
+    };
+
+    /* Read local storage state. */
+    if (localStorage.getItem('darkMode') === 'true') {
+        toggleDark();
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+        /* Add event to dark mode button. */
+        let a = document.getElementsByClassName('site-button')[1];
+        a.addEventListener('click', (e) => {
+            e.preventDefault();
+            toggleDark();
+        });
+    });
+</script>
+
+{% if page.mathjax %}
+<script
+  type="text/javascript"
+  async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
+></script>
+{% endif %}
