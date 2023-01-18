@@ -7,13 +7,16 @@ nav_order: 2
 
 ## Assignment Overview
 
-TODO
+In this project, you will be implementing 3 AI "guessers" and 2 AI "choosers":
+ - `LetterFreqGuesser` in `src/guessers/letter_freq_guesser.rs`
+ - `PatternAwareLFG` in `src/guessers/pattern_aware_lfg.rs`
+ - `PagaLFG` in `src/guessers/paga_lfg.rs`
+ - `RandomChooser` in `src/choosers/random_chooser.rs`
+ - `EvilChooser` in `src/choosers/evil_chooser.rs`
 
 ## Running the Project
 
-To test your code, run `cargo test`.
-
-TODO
+To run all the tests, run `cargo test`. To run the game, run `cargo run`.
 
 ## Submitting Your Code
 

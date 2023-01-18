@@ -20,6 +20,19 @@ This step will depend on your operating system:
 
 To verify that Git is installed, open up your terminal (Git Bash on Windows), and run `git --version`. You should see something like `git version [numbers]`.
 
+
+## Install a Text Editor
+
+You will need a text editor to write and edit your code. The instructions in this course assume that you are using Visual Studio Code (VSCode), but you can use a different text editor if you prefer (such as Atom, Sublime, or Neovim).
+
+To install VSCode, go to the [VSCode download page](https://code.visualstudio.com/download) and follow the instructions.
+
+
+## Install Python
+
+Python is used for running occasional scripts in this course. To install Python, go to the [Python download page](https://www.python.org/downloads/) and follow the instructions. Make sure to install Python 3, not Python 2.
+
+
 ## Install Rust
 
 Rust is a programming language designed for performance, safety, and concurrency. It is the language that you will be using in this course.
@@ -42,29 +55,14 @@ To install wasm-pack, follow the instructions at [https://rustwasm.github.io/was
 
 To verify that wasm-pack is installed, run `wasm-pack --version`. You should see something like `wasm-pack [numbers]`.
 
-## Install a Text Editor
-
-You will need a text editor to write and edit your Rust code. The instructions in this course assume that you are using Visual Studio Code (VSCode), but you can use a different text editor if you prefer (such as Atom, Sublime, or Neovim).
-
-To install VSCode, go to the [VSCode download page](https://code.visualstudio.com/download) and follow the instructions.
-
 
 ## Install the rust-analyzer extension
 
 The rust-analyzer extension provides intelligent code completion and other helpful features for working with Rust in your text editor.
 
-If you are using VSCode, open the "Extensions" panel in the laft sidebar, and search for the "rust-analyzer" extension. You can also find the extension here: [https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+If you are using VSCode, open the "Extensions" panel in the left sidebar, and search for the "rust-analyzer" extension. You can also find the extension here: [https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
 
-If you are using a different text editor, you can find instructions to install it here: [https://rust-analyzer.github.io/](https://rust-analyzer.github.io/). Any text editor that supports the Language Server Protocol will support rust-analyzer.
-
-
-## Install Python
-
-Python is a programming language that is commonly used for a wide range of tasks. In this course, you will use Python to run a local web server to test your code.
-
-To install Python, go to the [Python download page](https://www.python.org/downloads/) and follow the instructions. Make sure to install Python 3, not Python 2.
-
-If you prefer not to install Python, you can use an alternative like [http-server](https://crates.io/crates/http-server) to run a local web server.
+If you are using a different text editor, you can find installation instructions here: [https://rust-analyzer.github.io/](https://rust-analyzer.github.io/). Any text editor that supports the Language Server Protocol will support rust-analyzer.
 
 
 ## Set up a local repository
