@@ -6,7 +6,7 @@ nav_order: 3
 
 ## Assignment Overview
 
-In the "bomb" portion of the lab, you will be figuring out the passwords in ` bomb_answers.rs`. In the "adventure" portion of the lab, you will be debugging each of the stages of the game (`bee_counting_stage.rs`, `species_list_stage.rs`, `palindrome_stage.rs`, `machine_stage.rs`).
+In the "bomb" portion of the lab, you will be figuring out the passwords in `bomb_answers.rs`. In the "adventure" portion of the lab, you will be debugging each of the stages of the game (`bee_counting_stage.rs`, `species_list_stage.rs`, `palindrome_stage.rs`, `machine_stage.rs`).
 
 ## Running the Programs
 
