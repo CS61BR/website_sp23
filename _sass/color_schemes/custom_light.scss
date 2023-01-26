@@ -1,0 +1,211 @@
+
+// remove stupid light theme highlight colors
+.highlight .c, .highlight .err, .highlight .g, .highlight .k, .highlight .l, .highlight .n, .highlight .o, .highlight .x, .highlight .p, .highlight .cm, .highlight .cp, .highlight .c1, .highlight .cs, .highlight .gd, .highlight .ge, .highlight .gr, .highlight .gh, .highlight .gi, .highlight .go, .highlight .gp, .highlight .gs, .highlight .gu, .highlight .gt, .highlight .kc, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kt, .highlight .ld, .highlight .m, .highlight .s, .highlight .na, .highlight .nb, .highlight .nc, .highlight .no, .highlight .nd, .highlight .ni, .highlight .ne, .highlight .nf, .highlight .nl, .highlight .nn, .highlight .nx, .highlight .py, .highlight .nt, .highlight .nv, .highlight .ow, .highlight .w, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx, .highlight .sr, .highlight .s1, .highlight .ss, .highlight .bp, .highlight .vc, .highlight .vg, .highlight .vi, .highlight .il {
+    color: #383a42;
+}
+
+// modified version of atom's onelight theme
+
+pre.highlight,
+.highlight {
+  // background: #fafafa;
+  color: #383a42;
+}
+.highlight .c {
+  color: #a0a1a7;
+  font-style: italic;
+}
+.highlight .err {
+  color: white;
+  background-color: #ff1414;
+}
+.highlight .k {
+  color: #a626a4;
+}
+.highlight .l {
+  color: #50a14f;
+}
+.highlight .n {
+  color: #383a42;
+}
+.highlight .o {
+  color: #383a42;
+}
+.highlight .p {
+  color: #383a42;
+}
+.highlight .cm {
+  color: #a0a1a7;
+  font-style: italic;
+}
+.highlight .cp {
+  color: #a0a1a7;
+  font-style: italic;
+}
+.highlight .c1 {
+  color: #a0a1a7;
+  font-style: italic;
+}
+.highlight .cs {
+  color: #a0a1a7;
+  font-style: italic;
+}
+.highlight .ge {
+  font-style: italic;
+}
+.highlight .gs {
+  font-weight: bold;
+}
+.highlight .kc {
+  color: #a626a4;
+}
+.highlight .kd {
+  color: #a626a4;
+}
+.highlight .kn {
+  color: #a626a4;
+}
+.highlight .kp {
+  color: #a626a4;
+}
+.highlight .kr {
+  color: #a626a4;
+}
+.highlight .kt {
+  color: #a626a4;
+}
+.highlight .ld {
+  color: #50a14f;
+}
+.highlight .m {
+  color: #986801;
+}
+.highlight .s {
+  color: #50a14f;
+}
+.highlight .na {
+  color: #986801;
+}
+.highlight .nb {
+  color: #c18401;
+}
+.highlight .nc {
+  color: #c18401;
+}
+.highlight .no {
+  color: #c18401;
+}
+.highlight .nd {
+  color: #c18401;
+}
+.highlight .ni {
+  color: #c18401;
+}
+.highlight .ne {
+  color: #c18401;
+}
+.highlight .nf {
+  color: #383a42;
+}
+.highlight .nl {
+  color: #c18401;
+}
+.highlight .nn {
+  color: #383a42;
+}
+.highlight .nx {
+  color: #383a42;
+}
+.highlight .py {
+  color: #c18401;
+}
+.highlight .nt {
+  color: #e45649;
+}
+.highlight .nv {
+  color: #c18401;
+}
+.highlight .ow {
+  font-weight: bold;
+}
+.highlight .w {
+  color: #f8f8f2;
+}
+.highlight .mf {
+  color: #986801;
+}
+.highlight .mh {
+  color: #986801;
+}
+.highlight .mi {
+  color: #986801;
+}
+.highlight .mo {
+  color: #986801;
+}
+.highlight .sb {
+  color: #50a14f;
+}
+.highlight .sc {
+  color: #50a14f;
+}
+.highlight .sd {
+  color: #50a14f;
+}
+.highlight .s2 {
+  color: #50a14f;
+}
+.highlight .se {
+  color: #50a14f;
+}
+.highlight .sh {
+  color: #50a14f;
+}
+.highlight .si {
+  color: #50a14f;
+}
+.highlight .sx {
+  color: #50a14f;
+}
+.highlight .sr {
+  color: #0184bc;
+}
+.highlight .s1 {
+  color: #50a14f;
+}
+.highlight .ss {
+  color: #0184bc;
+}
+.highlight .bp {
+  color: #c18401;
+}
+.highlight .vc {
+  color: #c18401;
+}
+.highlight .vg {
+  color: #c18401;
+}
+.highlight .vi {
+  color: #e45649;
+}
+.highlight .il {
+  color: #986801;
+}
+.highlight .gu {
+  color: #75715e;
+}
+.highlight .gd {
+  color: #ff1414;
+}
+.highlight .gi {
+  color: #2db448;
+}
+.highlight ::selection {
+  background-color: #a7a7eb;
+}
+.highlight .language-json .w + .s2 {
+  color: #e45649;
+}
+.highlight .language-json .kc {
+  color: #0184bc;
+}

@@ -1,7 +1,7 @@
 ---
 title: "Lab 02: Debugging"
 has_children: true
-nav_order: 2
+nav_order: 3
 ---
 
 # Lab 02: Setup
